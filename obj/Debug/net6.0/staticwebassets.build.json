@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "76M+1SteqqsUfMoeJIkcWnWApVzDHQk4MxJqVwL+w60=",
+  "Source": "SurveyController",
+  "BasePath": "_content/SurveyController",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SurveyController\\wwwroot",
+      "Source": "SurveyController",
+      "ContentRoot": "C:\\Users\\micha\\OneDrive\\Documents\\Coding Dojo\\Notes\\C#\\Dojo_Survey\\wwwroot\\",
+      "BasePath": "_content/SurveyController",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\micha\\OneDrive\\Documents\\Coding Dojo\\Notes\\C#\\Dojo_Survey\\wwwroot\\css\\style.css",
+      "SourceId": "SurveyController",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\micha\\OneDrive\\Documents\\Coding Dojo\\Notes\\C#\\Dojo_Survey\\wwwroot\\",
+      "BasePath": "_content/SurveyController",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    }
+  ]
+}

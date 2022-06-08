@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="survey" method="post">
+        <div class="name">
+            <label for="name">Your Name</label>
+            <input type="text" name="name">
+        </div>
+        <div class="loc">
+            <label for="location">Dojo Location</label>
+            <select name="location">
+                <option selected hidden disabled></option>
+                <option value="San Jose">San Jose</option>
+                <option value="Boston">Boston</option>
+            </select>
+        </div>
+        <div class="lang">
+            <label for="language">Favorite Langauge</label>
+            <select name="language">
+                <option selected hidden disabled></option>
+                <option value="C#">C#</option>
+                <option value="JavaScript">JavaScript</option>
+            </select>
+        </div>
+        <div class="com">
+            <label for="comment">Comment (optional):</label>
+            <textarea name="comment" cols="30" rows="10" style="resize: none;"></textarea>
+        </div>
+        <button type="submit" style="align-self: flex-end; padding: 0.25rem;">Submit</button>
+    </form>
+</body>
+
+</html>
